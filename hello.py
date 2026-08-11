@@ -211,3 +211,5 @@ mynigga()
 x = 10
 
 y = 10
+
+print(f"{x} hello number")
