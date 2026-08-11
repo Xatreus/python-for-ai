@@ -200,3 +200,14 @@ print(f"Tokyo: {tokyo_temp}°C")
 x = 10
 y = 20
 print(x + y)
+
+
+def mynigga():
+    print("woof")
+
+mynigga()
+
+
+x = 10
+
+y = 10
