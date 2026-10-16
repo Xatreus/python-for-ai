@@ -3,7 +3,7 @@ import time
 variable = time.altzone
 power = 10  ** 2
 
-string = "my name is abdul rahman"
+string = "My name is Abdul Rahman"
 
 first_name = "abdul"
 second_name = "Rahman"
@@ -23,7 +23,7 @@ is_drunk = False
 can_vote = age>=16 and has_license and not is_drunk
 can_vote
 
-name = "Baba"
+name = "Alex"
 string = f"my name is {name}"
 print(name.lower())
 
@@ -31,11 +31,11 @@ print(name.lower())
 
 temp = 26
 if temp > 30:
-    print("its too hot gang")
+    print("It is quite warm.")
 elif temp > 25:
-    print("gang its too hot!")
+    print("It is quite warm!")
 else:
-    print("gang sybau")
+    print("It is cool.")
 
 
 has_license = True
@@ -43,11 +43,11 @@ age = 17
 
 if has_license:
     if age >= 18:
-        print("gang welcome")
+        print("Welcome!")
     else:
-        print("gang first be 18 gang then buy ticket")
+        print("Please meet the age requirement before buying a ticket.")
 else:
-    print("get the fuck out you are 18 but no ticket")
+    print("Please obtain a valid ticket.")
 
 
 for i in range(1,20,2):
@@ -70,7 +70,7 @@ person["license"] = True
 if "license" in person:
     print("found gang!")
 
-person.update({"name":"randi"})
+person.update({"name":"Jordan"})
 print(person)
 
 fruits = set(["banana", "apple", "banana",])
@@ -80,9 +80,9 @@ set(fruits)
 def check_weather():
     temp = 26
     if temp >= 26:
-        print("damn nigga its hot ")
+        print("It is hot.")
     else:
-        print("sybau cold")
+        print("It is cold.")
 
 check_weather()
 
@@ -90,14 +90,14 @@ check_weather()
 def greet(name,age):
     print(f"hi {name} your age is {age}")
 
-greet(name="nigga", age=25)
+greet(name="Alex", age=25)
 
 
 
 def calculate_total(price, discount, tax_rate):
     tax = price * tax_rate
     total= price + tax - discount
-    print(f"hey pussy your total is {total}")
+    print(f"Total your total is {total}")
 
 calculate_total(10, 0.1, 0.2)
 
@@ -202,10 +202,10 @@ y = 20
 print(x + y)
 
 
-def mynigga():
+def my_function():
     print("woof")
 
-mynigga()
+my_function()
 
 
 x = 10
@@ -213,7 +213,7 @@ x = 10
 y = 10
 
 print(f"{x} hello number")
-varaible = "mynigga"
+variable = "sample_value"
 
 
 import os
@@ -222,6 +222,6 @@ import os
 api_key = os.environ.get('API_KEY')
 database = os.environ.get('DATABASE_NAME', 'default.db')
 
-print(f"Using database: {api_key}")
+print(f"API key configured: {bool(api_key)}")
 
 
